@@ -1,6 +1,5 @@
 package com.agent.agentInfo;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -21,6 +20,10 @@ public class Agents {
 	private Double commission;
 	private String phone_No;
 	private String country;
+	
+	public Agents() {
+	}
+	
 	public String getAgent_Code() {
 		return agent_Code;
 	}
